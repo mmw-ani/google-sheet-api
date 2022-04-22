@@ -27,3 +27,5 @@ Eg - creds.json
 -   Install the packages by doing `npm install`
 
 -   Start the server by `npm start`
+
+**For Reading and Updating the sheet, you have to pass the JWT token generated from backend during login in authorization in headers **
