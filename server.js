@@ -8,7 +8,7 @@ app.use(express.json());
 app.use('', goolgleRoutes);
 
 app.get('/', (req, res) => {
-	res.send('This is Utilize Assignment API');
+	res.send('This is Google Sheets API');
 });
 
 app.listen(PORT, () => {
